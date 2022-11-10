@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Poppins;
+    color: white;
+    background-color: #151515;
+}
+.App{
+    max-width: 900px;
+    width: 900px;
+}
+.form-cadastro {
+    background-color: #1E1E1E;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.comp-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comp-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.comp-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+button {
+    background-color: #36CE7C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-container {
+    width: calc(50% - 5px);
+    height: 150px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card-body {
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+}
+
+.comp-input input {
+    height: 30px;
+    background-color: #353535;
+    color: whitesmoke;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+}
